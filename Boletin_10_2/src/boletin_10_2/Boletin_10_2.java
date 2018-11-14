@@ -6,8 +6,7 @@ public class Boletin_10_2{
     private static Random random = new Random();
     
     public static void main(String[] args){
-        int numAleatorio = random.nextInt(50) + 1,numJugador = 0,c = 0;
-        System.out.println(numAleatorio);
+        int numAleatorio = random.nextInt(50) + 1, numJugador = 0, c = 0;
         do{
             try{
                 numJugador = Integer.parseInt(JOptionPane.showInputDialog(null,"Adiviña un numero entre 1 e 50:","Xogo",3));
